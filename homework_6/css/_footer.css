@@ -1,0 +1,23 @@
+.navbar{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--green-darken);
+
+}
+	
+.link{
+	text-decoration: none;
+	color: var(--white);
+}
+.underfooter{
+	text-align: center;
+	color: var(--white);
+	background-color: var(--gray);
+	height: 3rem;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}	
+

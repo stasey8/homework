@@ -1,0 +1,45 @@
+.title{
+	text-align: center;
+	color: var(--white);
+	font-size: 40px;
+	padding: 1rem 0 1rem 0;
+	text-transform: uppercase;
+	letter-spacing: 2px ;
+}
+.info1{
+	font-size: 24px;
+	font-weight: bold;
+	
+}
+.block-name{
+	color: var(--green-dark);
+	font-weight: bold;
+	font-size: 24px;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+}
+.block-text{
+	max-width: 90%;
+	font-size: 20px;
+	color: var(--gray);
+}
+.item-number{
+	background: var(--light-green);
+	border-radius: 50% ;
+	color: var(--white);
+	height: 3rem;
+	margin: 5% 40%;
+	width: 3rem;
+
+	font-weight: bold;
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+.item-text{
+color: var(--gray);
+}
+.comment-text{
+	color: var(--gray);
+	padding-bottom: 3rem;
+}

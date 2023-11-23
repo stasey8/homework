@@ -1,0 +1,111 @@
+.main {
+  background-color: var(--green-dark);
+}
+
+.list-img {
+  height: 500px;
+  width: 400px;
+  padding: 0 20px 20px 0;
+}
+.filter {
+  height: 120vh;
+  width: 20%;
+  background-color: var(--white);
+  border-radius: 10px;
+  margin: 0 0 0 5rem;
+  text-align: center;
+  padding: 20px;
+  float: left;
+}
+.pictures {
+  text-align: center;
+  margin: 0 10rem;
+}
+
+.list-item {
+  list-style-type: none;
+  display: inline-block;
+}
+.list-img {
+  width: 500px;
+  height: 600px;
+}
+
+.information {
+  color: var(--white);
+  background-image: url("../img/27aeafd4-9f29-4045-a123-f5581ff789bd.jpg");
+  text-align: center;
+  margin: 0 10rem;
+  height: 500px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contacts {
+  padding-bottom: 2rem;
+}
+.cards {
+  margin: 2rem 6rem;
+  overflow: auto;
+}
+
+.container-block-1 {
+  background-color: var(--white);
+  float: left;
+  height: 33rem;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-block-2 {
+  background-color: var(--white);
+  height: 33rem;
+  width: 69rem;
+  text-align: center;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-block-3 {
+  background-color: var(--white);
+  height: 33rem;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.block-img {
+  height: 33rem;
+}
+
+.img-container-2 {
+  float: left;
+}
+
+.info-items {
+  margin: 0 20rem;
+  background-color: var(--white);
+  border-radius: 50px;
+  border: 20px solid var(--white-darken);
+
+  text-align: center;
+}
+.item {
+  background-color: var(--white-darken);
+  display: inline-block;
+  height: 150px;
+  width: 200px;
+  border-radius: 10px;
+  margin: 0 0 1rem 0;
+}

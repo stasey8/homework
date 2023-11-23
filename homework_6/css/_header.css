@@ -1,0 +1,26 @@
+.header{
+	background-color: var(--green-darken);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo-img{
+height: 2rem;
+width: 2rem;
+margin: 2px 0 2px 20px;
+
+}
+.list{
+display: inline;
+
+}
+.nav{
+	text-align: right;
+	
+}
+.link{
+	text-decoration: none;
+	color: var(--white);
+	padding-left: 2rem;
+	
+}
