@@ -1,0 +1,42 @@
+.footer {
+  background-color: $color-dark-gray;
+  height: 252px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 215px;
+}
+.p-26 {
+  font-size: $font-26;
+}
+.color-3 {
+  color: $color-white;
+}
+.adress {
+  color: $color-white;
+  font-family: $font-1;
+  font-size: $font-14;
+
+  font-weight: 400;
+  line-height: 24px;
+    letter-spacing: 0.42px;
+
+  margin: 20px 0px 9px 0px;
+}
+.info {
+  color: $color-gray;
+  font-size: $font-14;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+
+  margin-bottom: 9px;
+}
+.phone-number {
+  color: $color-gray;
+  font-size: $font-14;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}

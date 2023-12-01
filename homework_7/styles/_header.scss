@@ -1,0 +1,72 @@
+.header {
+  
+  height: 80px;
+  background-color: $color-white;
+
+  &-container {
+    max-width: 1170px;
+    margin:25px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+.logo {
+  &__text {
+    font-family: $font-2;
+
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+  }
+}
+.color-1 {
+  color: $primary-color;
+}
+.color-2 {
+  color: $color-black;
+}
+
+.email {
+  font-family: $font-1;
+  font-size: $font-14;
+
+  color: $primary-color;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+
+  cursor: pointer;
+}
+
+.phone {
+  color: $color-gray;
+
+  font-family: $font-1;
+  font-size: $font-14;
+
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-link {
+  text-decoration: none;
+  
+  font-weight: 500;
+
+  margin-right: 50px;
+
+  color: $secondary-color;
+
+  cursor: pointer;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
