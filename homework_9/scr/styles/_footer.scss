@@ -1,0 +1,57 @@
+.footer {
+// @include flex();
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+align-items: center;
+
+  margin-top: 10rem;
+  height: 339px;
+  background-color: $secondary-color;
+
+  color: $white-color;
+   
+  
+}
+.item1{
+    grid-column: 1 / 2;
+    margin-left: 10rem;
+    margin-bottom: 6rem;
+}
+.item2{
+    grid-column: 3 / 4;
+}
+.item3{
+    grid-column: 4 / 5;
+}
+.item4{
+    grid-column: 5 / 6;
+}
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    
+  
+    &-phone {
+      display: flex;
+      font-size: $font-16;
+  
+      &__icon {
+        margin-right: 10px;
+      }
+  
+      &__number {
+       
+        font-weight: $font-w-600;
+        text-decoration: none;
+        color: $white-color;
+      }
+    }
+  
+    &-time {
+      color: $color-header;  
+      font-weight: $font-w-400;
+      margin-top: 10px;
+      margin-bottom: 2rem;
+    }
+}

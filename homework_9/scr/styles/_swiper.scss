@@ -1,0 +1,29 @@
+.border {
+    width: 580px;
+    height: 18.75px;
+    border-radius: 26px;
+    background: 
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+      rgba(0, 0, 0, 0.2);
+  
+      margin: 5rem 0 0 20rem;
+  
+    &__long {
+      height: 18.75px;
+      width: 50px;
+      border-radius: 26px;
+      background-color: $color-gray;
+    }
+  }
+  .form__swiper{
+    position: relative;
+    border: 1px solid #F2F2F2;
+  }
+  .swiper-gray{
+    
+    border-radius: 50%;
+    background-color: #696;
+    filter: drop-shadow(2px 2px 7px rgba(0, 0, 0, 0.25));
+
+  }
+ 

@@ -1,0 +1,64 @@
+.sidebar {
+  float: left;
+  padding: 5rem 10rem 5rem 20rem;
+}
+.form__title {
+  color: $color-dark-gray;
+
+  font-size: $font-20;
+
+  font-weight: $font-w-600;
+  margin-bottom: 0.5rem;
+}
+svg {
+  margin-left: 15px;
+  margin-bottom: 4px;
+}
+label {
+  color: $color-dark-gray;
+
+  font-size: $font-18;
+
+  font-weight: $font-w-400;
+}
+input {
+  color: $color-dark-gray;
+
+  font-size: $font-18;
+
+  font-weight: $font-w-400;
+  margin-bottom: 1rem;
+
+  border: 1px solid #b3b3b39f;
+}
+form {
+  margin-bottom: 10px;
+}
+#mininterval,
+#maxinterval {
+  width: 78px;
+}
+.filter {
+  position: relative;
+  margin: 1.5rem 0;
+
+  border: 1px solid #3f3f3f2a;
+  &-range1 {
+    position: absolute;
+    top: -7px;
+    left: 15px;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: $secondary-color;
+  }
+  &-range2 {
+    position: absolute;
+    top: -7px;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: $color-light-gray;
+  }
+}

@@ -1,0 +1,23 @@
+.btn {
+    text-align: center;
+  &__link {
+    
+    padding: 1rem 5rem;
+    border-radius: 42px;
+
+    background-color: $secondary-color;
+    color: $white-color;
+
+    font-size: $font-18;
+
+    font-weight: $font-w-400;
+
+    text-decoration: none;
+
+    text-align: center;
+  }
+}
+.delete{
+    padding: 1rem 3rem;
+    opacity: 0.5;
+}

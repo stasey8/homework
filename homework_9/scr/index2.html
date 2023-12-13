@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tee Project</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" href="../scr/styles/css/main.min.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@100;300;400;500;700;900&family=Raleway:wght@300;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <ul class="navbar__lists">
+          <li class="navbar__list">
+            <a href="#" class="navbar__link">Доставка и оплата</a>
+          </li>
+          <li class="navbar__list">
+            <a href="#" class="navbar__link">Отзывы</a>
+          </li>
+          <li class="navbar__list">
+            <a href="#" class="navbar__link">О магазине</a>
+          </li>
+          <li class="navbar__list">
+            <a href="#" class="navbar__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="user-actions">
+        <a href="#" class="user-actions enter">Вход</a>
+        <span class="divider">&#124;</span>
+        <a href="#" class="user-actions registration">Регистрация</a>
+        <img src="../scr/img/icons/basket.svg" alt="basket" />
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="top">
+        <div class="logo">
+          <img src="../scr/img/icons/logo.svg" alt="" class="logo__icon" />
+        </div>
+
+        <div class="top-container">
+          <div class="search">
+            <input type="text" class="search__container" placeholder="Поиск" />
+          </div>
+
+          <div class="info">
+            <div class="info-phone">
+              <img
+                src="./img/icons/phone.svg"
+                alt=""
+                class="info-phone__icon"
+              />
+              <a href="#" class="info-phone__number">+375 (29) 765 45 65</a>
+            </div>
+            <div class="info-time">
+              Пн - пт с 9:00 до 19:00 <br />
+              Сб - вс выходной
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu container">
+        <ul class="menu__lists">
+          <li class="menu__list"><a href="Чай" class="menu__link">Чай</a></li>
+          <li class="menu__list"><a href="#" class="menu__link">Кофе</a></li>
+          <li class="menu__list">
+            <a href="#" class="menu__link">Сладенькое</a>
+          </li>
+          <li class="menu__list">
+            <a href="#" class="menu__link">Атрибуты</a>
+          </li>
+          <li class="menu__list"><a href="#" class="menu__link">Наборы</a></li>
+          <li class="menu__list"><a href="#" class="menu__link">Акции</a></li>
+        </ul>
+      </section>
+
+      <section class="border">
+        <div class="border__long"></div>
+      </section>
+
+      <section class="products">
+        <h2 class="title">Чай</h2>
+    <sidebar class="sidebar">
+        <form class="form__price">
+            <h3 class="form__title">Цена<svg xmlns="http://www.w3.org/2000/svg" width="13" height="7" viewBox="0 0 13 7" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.146447 6.51029C0.341709 6.70555 0.658291 6.70555 0.853553 6.51029L6.15688 1.20696L11.4602 6.51028C11.6555 6.70554 11.972 6.70554 12.1673 6.51028C12.3626 6.31502 12.3626 5.99844 12.1673 5.80318L6.51045 0.146321C6.38459 0.0204626 6.20833 -0.0242724 6.04664 0.012116C5.95746 0.0321775 5.87272 0.0769158 5.8033 0.146331L0.146447 5.80318C-0.0488155 5.99845 -0.0488155 6.31503 0.146447 6.51029Z" fill="#696969"/>
+                </svg></h3> <br />
+            <label for="name">от</label>
+            <input placeholder="50" id="mininterval" type="number"/>
+            <label for="name">до</label>
+            <input type="number" id="maxinterval"/>
+            <div class="filter">
+                <div class="filter-range1"></div>
+                <div class="filter-range2"></div>
+                </div>
+        </form>
+        <form class="form__category">
+            <h3 class="form__title">Категория<svg xmlns="http://www.w3.org/2000/svg" width="13" height="7" viewBox="0 0 13 7" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.146447 6.51029C0.341709 6.70555 0.658291 6.70555 0.853553 6.51029L6.15688 1.20696L11.4602 6.51028C11.6555 6.70554 11.972 6.70554 12.1673 6.51028C12.3626 6.31502 12.3626 5.99844 12.1673 5.80318L6.51045 0.146321C6.38459 0.0204626 6.20833 -0.0242724 6.04664 0.012116C5.95746 0.0321775 5.87272 0.0769158 5.8033 0.146331L0.146447 5.80318C-0.0488155 5.99845 -0.0488155 6.31503 0.146447 6.51029Z" fill="#696969"/>
+                </svg></h3>  <br />
+                <input type="checkbox" id="black" name="black" value="black" />
+                <label>Черный</label> <br />
+                <input
+                  type="checkbox"
+                  id="white"
+                  name="white"
+                  value="white"
+                  checked
+                />
+                <label>Белый</label> <br />
+                <input type="checkbox" id="red" name="red" value="red" />
+                <label>Красный</label> <br />
+                <input type="checkbox" id="yellow" name="yellow" value="yellow" />
+                <label>Желтый</label> <br />
+                <input type="checkbox" id="fruits" name="fruits" value="fruits" />
+                <label>Фруктовый</label> <br />
+                <input type="checkbox" id="herbal" name="herbal" value="herbal" />
+                <label>Травяной</label> <br />
+        </form>
+          
+        <form class="form__country"><h3 class="form__title">Страна<svg xmlns="http://www.w3.org/2000/svg" width="13" height="7" viewBox="0 0 13 7" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.146447 6.51029C0.341709 6.70555 0.658291 6.70555 0.853553 6.51029L6.15688 1.20696L11.4602 6.51028C11.6555 6.70554 11.972 6.70554 12.1673 6.51028C12.3626 6.31502 12.3626 5.99844 12.1673 5.80318L6.51045 0.146321C6.38459 0.0204626 6.20833 -0.0242724 6.04664 0.012116C5.95746 0.0321775 5.87272 0.0769158 5.8033 0.146331L0.146447 5.80318C-0.0488155 5.99845 -0.0488155 6.31503 0.146447 6.51029Z" fill="#696969"/>
+            </svg></h3> <br />
+            <input type="checkbox" id="india" name="india" value="india" />
+            <label>Индия</label> <br />
+            <input
+              type="checkbox"
+              id="china"
+              name="china"
+              value="china"
+              checked
+            />
+            <label>Китай</label> <br />
+            <input
+              type="checkbox"
+              id="singapore"
+              name="singapore"
+              value="singapore"
+            />
+            <label>Сингапур</label> <br />
+            <input
+              type="checkbox"
+              id="Brusels"
+              name="Brusels"
+              value="Brusels"
+            />
+            <label>Брюсель</label> <br />
+            <input type="checkbox" id="britan" name="britan" value="britan" />
+            <label>Англия</label> <br />
+        </form>
+        <h3 class="form__title">Состав<svg xmlns="http://www.w3.org/2000/svg" width="13" height="7" viewBox="0 0 13 7" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.146447 6.51029C0.341709 6.70555 0.658291 6.70555 0.853553 6.51029L6.15688 1.20696L11.4602 6.51028C11.6555 6.70554 11.972 6.70554 12.1673 6.51028C12.3626 6.31502 12.3626 5.99844 12.1673 5.80318L6.51045 0.146321C6.38459 0.0204626 6.20833 -0.0242724 6.04664 0.012116C5.95746 0.0321775 5.87272 0.0769158 5.8033 0.146331L0.146447 5.80318C-0.0488155 5.99845 -0.0488155 6.31503 0.146447 6.51029Z" fill="#696969"/>
+            </svg></h3> <br />
+            <h3 class="form__title">По весу<svg xmlns="http://www.w3.org/2000/svg" width="13" height="7" viewBox="0 0 13 7" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.146447 6.51029C0.341709 6.70555 0.658291 6.70555 0.853553 6.51029L6.15688 1.20696L11.4602 6.51028C11.6555 6.70554 11.972 6.70554 12.1673 6.51028C12.3626 6.31502 12.3626 5.99844 12.1673 5.80318L6.51045 0.146321C6.38459 0.0204626 6.20833 -0.0242724 6.04664 0.012116C5.95746 0.0321775 5.87272 0.0769158 5.8033 0.146331L0.146447 5.80318C-0.0488155 5.99845 -0.0488155 6.31503 0.146447 6.51029Z" fill="#696969"/>
+                </svg></h3> <br />
+    </sidebar>
+
+        <div class="catalog">
+          <div class="catalog-item">
+            <a href="#" class="catalog-item__img">
+              <img class="catalog-item__img" src="./img/tee_1.png" alt="tea" />
+            </a>
+            <h3 class="catalog-item__title">Юньнань Юнь</h3>
+            <div class="catalog-item__subtitle">Белый чай</div>
+            <div class="catalog-item__description">
+              Очень легкий чай с тонким ароматом, имеет сладковатый вкус с
+              легкой кислинкой.
+            </div>
+            <div class="catalog-item__price">
+              <p class="weigth">100 гр.</p>
+              <span class="slash">&#47;</span>
+              <p class="price">20 BYR.</p>
+            </div>
+            <div class="btn">
+              <a href="#" class="btn__link">В корзину</a>
+            </div>
+          </div>
+          <div class="catalog-item">
+            <a href="#" class="catalog-item__img">
+              <img class="catalog-item__img" src="./img/tee_1.png" alt="tea" />
+            </a>
+            <h3 class="catalog-item__title">Юньнань Юнь</h3>
+            <div class="catalog-item__subtitle">Белый чай</div>
+            <div class="catalog-item__description">
+              Очень легкий чай с тонким ароматом, имеет сладковатый вкус с
+              легкой кислинкой.
+            </div>
+            <div class="catalog-item__price">
+              <p class="weigth">100 гр.</p>
+              <span class="slash">&#47;</span>
+              <p class="price">20 BYR.</p>
+            </div>
+            <div class="btn">
+              <a href="#" class="btn__link">В корзину</a>
+            </div>
+          </div>
+          <div class="catalog-item">
+            <a href="#" class="catalog-item__img">
+              <img class="catalog-item__img" src="./img/tee_1.png" alt="tea" />
+            </a>
+            <h3 class="catalog-item__title">Юньнань Юнь</h3>
+            <div class="catalog-item__subtitle">Белый чай</div>
+            <div class="catalog-item__description">
+              Очень легкий чай с тонким ароматом, имеет сладковатый вкус с
+              легкой кислинкой.
+            </div>
+            <div class="catalog-item__price">
+              <p class="weigth">100 гр.</p>
+              <span class="slash">&#47;</span>
+              <p class="price line-through">20 BYR.</p>
+              <p class="discount">15 BYR.</p>
+            </div>
+            <div class="btn">
+              <a href="#" class="btn__link">В корзину</a>
+            </div>
+          </div>
+          <div class="catalog-item">
+            <a href="#" class="catalog-item__img">
+              <img class="catalog-item__img" src="./img/tee_1.png" alt="tea" />
+            </a>
+            <h3 class="catalog-item__title">Юньнань Юнь</h3>
+            <div class="catalog-item__subtitle">Белый чай</div>
+            <div class="catalog-item__description">
+              Очень легкий чай с тонким ароматом, имеет сладковатый вкус с
+              легкой кислинкой.
+            </div>
+            <div class="catalog-item__price">
+              <p class="weigth">100 гр.</p>
+              <span class="slash">&#47;</span>
+              <p class="price">20 BYR.</p>
+            </div>
+            <div class="btn">
+              <a href="#" class="btn__link">В корзину</a>
+            </div>
+          </div>
+          <div class="catalog-item">
+            <a href="#" class="catalog-item__img">
+              <img class="catalog-item__img" src="./img/tee_1.png" alt="tea" />
+            </a>
+            <h3 class="catalog-item__title">Юньнань Юнь</h3>
+            <div class="catalog-item__subtitle">Белый чай</div>
+            <div class="catalog-item__description">
+              Очень легкий чай с тонким ароматом, имеет сладковатый вкус с
+              легкой кислинкой.
+            </div>
+            <div class="catalog-item__price">
+              <p class="weigth">100 гр.</p>
+              <span class="slash">&#47;</span>
+              <p class="price">20 BYR.</p>
+            </div>
+            <div class="btn">
+              <a href="#" class="btn__link">В корзину</a>
+            </div>
+          </div>
+          <div class="catalog-item">
+            <a href="#" class="catalog-item__img">
+              <img class="catalog-item__img" src="./img/tee_1.png" alt="tea" />
+            </a>
+            <h3 class="catalog-item__title">Юньнань Юнь</h3>
+            <div class="catalog-item__subtitle">Белый чай</div>
+            <div class="catalog-item__description">
+              Очень легкий чай с тонким ароматом, имеет сладковатый вкус с
+              легкой кислинкой.
+            </div>
+            <div class="catalog-item__price">
+              <p class="weigth">100 гр.</p>
+              <span class="slash">&#47;</span>
+              <p class="price line-through">20 BYR.</p>
+              <p class="discount">15 BYR.</p>
+            </div>
+            <div class="btn">
+              <a href="#" class="btn__link delete">Убрать из корзины</a>
+            </div>
+          </div>
+          <div class="catalog-item">
+            <a href="#" class="catalog-item__img">
+              <img class="catalog-item__img" src="./img/tee_1.png" alt="tea" />
+            </a>
+            <h3 class="catalog-item__title">Юньнань Юнь</h3>
+            <div class="catalog-item__subtitle">Белый чай</div>
+            <div class="catalog-item__description">
+              Очень легкий чай с тонким ароматом, имеет сладковатый вкус с
+              легкой кислинкой.
+            </div>
+            <div class="catalog-item__price">
+              <p class="weigth">100 гр.</p>
+              <span class="slash">&#47;</span>
+              <p class="price">20 BYR.</p>
+            </div>
+            <div class="btn">
+              <a href="#" class="btn__link">В корзину</a>
+            </div>
+          </div>
+          <div class="catalog-item">
+            <a href="#" class="catalog-item__img">
+              <img class="catalog-item__img" src="./img/tee_1.png" alt="tea" />
+            </a>
+            <h3 class="catalog-item__title">Юньнань Юнь</h3>
+            <div class="catalog-item__subtitle">Белый чай</div>
+            <div class="catalog-item__description">
+              Очень легкий чай с тонким ароматом, имеет сладковатый вкус с
+              легкой кислинкой.
+            </div>
+            <div class="catalog-item__price">
+              <p class="weigth">100 гр.</p>
+              <span class="slash">&#47;</span>
+              <p class="price">20 BYR.</p>
+            </div>
+            <div class="btn">
+              <a href="#" class="btn__link">В корзину</a>
+            </div>
+          </div>
+          <div class="catalog-item">
+            <a href="#" class="catalog-item__img">
+              <img class="catalog-item__img" src="./img/tee_1.png" alt="tea" />
+            </a>
+            <h3 class="catalog-item__title">Юньнань Юнь</h3>
+            <div class="catalog-item__subtitle">Белый чай</div>
+            <div class="catalog-item__description">
+              Очень легкий чай с тонким ароматом, имеет сладковатый вкус с
+              легкой кислинкой.
+            </div>
+            <div class="catalog-item__price">
+              <p class="weigth">100 гр.</p>
+              <span class="slash">&#47;</span>
+              <p class="price">20 BYR.</p>
+            </div>
+            <div class="btn">
+              <a href="#" class="btn__link">В корзину</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h2 class="title2">Акции</h2>
+      <section class="discount">
+            <div class="catalog-item">
+              <a href="#" class="catalog-item__img">
+                <img class="catalog-item__img" src="./img/tee_1.png" alt="tea" />
+              </a>
+              <h3 class="catalog-item__title">Юньнань Юнь</h3>
+              <div class="catalog-item__subtitle">Белый чай</div>
+              <div class="catalog-item__description">
+                Очень легкий чай с тонким ароматом, имеет сладковатый вкус с
+                легкой кислинкой.
+              </div>
+              <div class="catalog-item__price">
+                <p class="weigth">100 гр.</p>
+                <span class="slash">&#47;</span>
+                <p class="price">20 BYR.</p>
+              </div>
+              <div class="btn">
+                <a href="#" class="btn__link">В корзину</a>
+              </div>
+            </div>
+            <div class="catalog-item">
+                <a href="#" class="catalog-item__img">
+                  <img class="catalog-item__img" src="./img/tee_1.png" alt="tea" />
+                </a>
+                <h3 class="catalog-item__title">Юньнань Юнь</h3>
+                <div class="catalog-item__subtitle">Белый чай</div>
+                <div class="catalog-item__description">
+                  Очень легкий чай с тонким ароматом, имеет сладковатый вкус с
+                  легкой кислинкой.
+                </div>
+                <div class="catalog-item__price">
+                  <p class="weigth">100 гр.</p>
+                  <span class="slash">&#47;</span>
+                  <p class="price">20 BYR.</p>
+                </div>
+                <div class="btn">
+                  <a href="#" class="btn__link">В корзину</a>
+                </div>
+              </div>
+              <div class="catalog-item">
+                <a href="#" class="catalog-item__img">
+                  <img class="catalog-item__img" src="./img/tee_1.png" alt="tea" />
+                </a>
+                <h3 class="catalog-item__title">Юньнань Юнь</h3>
+                <div class="catalog-item__subtitle">Белый чай</div>
+                <div class="catalog-item__description">
+                  Очень легкий чай с тонким ароматом, имеет сладковатый вкус с
+                  легкой кислинкой.
+                </div>
+                <div class="catalog-item__price">
+                  <p class="weigth">100 гр.</p>
+                  <span class="slash">&#47;</span>
+                  <p class="price">20 BYR.</p>
+                </div>
+                <div class="btn">
+                  <a href="#" class="btn__link">В корзину</a>
+                </div>
+              </div>
+              <div class="catalog-item">
+                <a href="#" class="catalog-item__img">
+                  <img class="catalog-item__img" src="./img/tee_1.png" alt="tea" />
+                </a>
+                <h3 class="catalog-item__title">Юньнань Юнь</h3>
+                <div class="catalog-item__subtitle">Белый чай</div>
+                <div class="catalog-item__description">
+                  Очень легкий чай с тонким ароматом, имеет сладковатый вкус с
+                  легкой кислинкой.
+                </div>
+                <div class="catalog-item__price">
+                  <p class="weigth">100 гр.</p>
+                  <span class="slash">&#47;</span>
+                  <p class="price">20 BYR.</p>
+                </div>
+                <div class="btn">
+                  <a href="#" class="btn__link">В корзину</a>
+                </div>
+              </div>
+      </section>
+    </main>
+      <footer class="footer">
+        <div class="logo item1">
+            <img src="../scr/img/icons/logo_white.svg" alt="" class="logo__icon" />
+          </div>
+          
+            <navbar class="footer-navbar item2">
+              <ul class="footer-navbar__lists">
+                <li class="footer-navbar__list-title">Информация</li>
+                <li class="footer-navbar__list">
+                  <a href="#" class="footer-navbar__link">Доставка и оплата</a>
+                </li>
+                <li class="footer-navbar__list">
+                  <a href="#" class="footer-navbar__link">Отзывы</a>
+                </li>
+                <li class="footer-navbar__list">
+                  <a href="#" class="footer-navbar__link">О магазине</a>
+                </li>
+                <li class="footer-navbar__list">
+                  <a href="#" class="footer-navbar__link">Контакты</a>
+                </li>
+                <br>
+                <br>
+                <br>
+                
+            </ul>
+            </navbar>
+            <navbar class="footer-navbar item3">
+                <ul class="footer-navbar__lists">
+                  <li class="footer-navbar__list-title">Категории</li>
+                  <li class="footer-navbar__list">
+                    <a href="#" class="footer-navbar__link">Чай</a>
+                  </li>
+                  <li class="footer-navbar__list">
+                    <a href="#" class="footer-navbar__link">Кофе</a>
+                  </li>
+                  <li class="footer-navbar__list">
+                    <a href="#" class="footer-navbar__link">Сладенькое</a>
+                  </li>
+                  <li class="footer-navbar__list">
+                    <a href="#" class="footer-navbar__link">Атрибуты</a>
+                  </li>
+                  <li class="footer-navbar__list">
+                    <a href="#" class="footer-navbar__link">Наборы</a>
+                  </li>
+                  <li class="footer-navbar__list">
+                    <a href="#" class="footer-navbar__link">Акции</a>
+                  </li>
+              </ul>
+              </navbar>
+              <div class="footer-info item4">
+                <div class="footer-info-phone">
+                  <img
+                    src="./img/icons/phone__white.svg"
+                    alt=""
+                    class="footer-info-phone__icon"
+                  />
+                  <a href="#" class="footer-info-phone__number">+375 (29) 765 45 65</a>
+                </div>
+                <div class="footer-info-time">
+                  Пн - пт с 9:00 до 19:00 <br />
+                  Сб - вс выходной
+                </div>
+                <div class="footer-info-phone">
+                    <img
+                      src="./img/icons/address.svg"
+                      alt=""
+                      class="footer-info-phone__icon"
+                    />
+                    <a href="#" class="footer-info-phone__number">Адрес</a>
+                  </div>
+                  <div class="footer-info-time">
+                    Дмитровское ш., д.<br /> 125, стр. 1, офис 5
+                  </div>
+              </div>
+              
+            
+            
+           
+       
+      </footer>
+  </body>
+</html>

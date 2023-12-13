@@ -1,0 +1,59 @@
+.top {
+  margin-top: 30px;
+  @include flex();
+
+  &-container {
+    @include flex();
+  }
+}
+.logo{
+    margin-bottom: 1rem;
+}
+
+.search {
+  &__container {
+    border-radius: 47px;
+    border: 1px solid $search-border-color;
+    background: $search-color;
+
+    width: 341px;
+    height: 48px;
+
+    
+  }
+}
+::placeholder {
+  color: $color-gray;
+  opacity: 0.5;
+  padding-left: 2rem;
+
+  font-size: $font-16;
+  font-weight: $font-w-400;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  margin-top: 25px;
+
+  &-phone {
+    display: flex;
+    font-size: $font-16;
+
+    &__icon {
+      margin-right: 10px;
+    }
+
+    &__number {
+      color: $color-gray;
+      font-weight: $font-w-600;
+      text-decoration: none;
+    }
+  }
+
+  &-time {
+    color: $color-dark-gray;
+    font-weight: $font-w-400;
+    margin-top: 10px;
+  }
+}

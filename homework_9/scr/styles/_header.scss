@@ -1,0 +1,28 @@
+.header {
+  
+  background-color: $secondary-color;
+  @include flex();
+
+  height: 81px;
+}
+
+.user-actions {
+  color: $white-color;
+
+  font-size: 16px;
+
+  font-weight: $font-w-600;
+
+  text-decoration: none;
+  }
+
+.enter{
+    margin-right: 10px;
+    
+}
+.registration{
+    margin-right: 25px;
+    margin-left: 10px;
+   
+}
+

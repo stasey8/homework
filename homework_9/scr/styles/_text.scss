@@ -1,0 +1,81 @@
+.title {
+  color: $color-gray;
+
+  font-size: $font-33;
+
+  font-weight: $font-w-600;
+  margin: 5rem 0rem 0rem 20rem;
+}
+.title2 {
+  color: $color-gray;
+
+  font-size: $font-33;
+
+  font-weight: $font-w-600;
+  text-align: center;
+  margin: 10rem 0 5rem 0;
+}
+.catalog-item__title {
+  color: $color-gray;
+  font-size: $font-20;
+  font-weight: $font-w-600;
+
+  margin-bottom: 1rem;
+}
+.catalog-item__subtitle {
+  color: $color-light-gray;
+  font-size: $font-16;
+  font-weight: $font-w-600;
+}
+.catalog-item__description {
+  color: $color-light-gray;
+  font-size: $font-14;
+  font-weight: $font-w-400;
+
+  margin-bottom: 1rem;
+}
+.weigth,
+.slash {
+  color: $color-gray;
+  font-size: $font-18;
+  font-weight: $font-w-400;
+
+  margin-right: 0.3rem;
+}
+.price {
+  color: $color-gray;
+  font-size: $font-18;
+  font-weight: $font-w-600;
+}
+.line-through {
+  text-decoration: line-through;
+  color: $color-light-gray;
+  font-weight: $font-w-400;
+  font-size: $font-18;
+}
+
+.discount {
+  color: $color-red;
+
+  font-size: $font-18;
+
+  font-weight: $font-w-600;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+.decoration {
+  color: $color-light-gray;
+
+  font-size: $font-18;
+  font-weight: $font-w-400;
+}
+.color {
+  color: $color-red;
+
+  font-size: $font-20;
+  font-weight: $font-w-600;
+}
+
+
+
